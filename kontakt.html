@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<!-- Basics HTML -->
+	    <meta charset="utf-8">
+		<meta name="author"  content="Zeena Bahram">
+		<meta name="description"  content="Learn web design">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="imgs/favicon.icon">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<head>
+		<!-- my Code -->
+		<title>Zeena Bahram</title>
+		<link rel="stylesheet" type="text/css" href="CSS-STYLE/reset.css">
+		<link rel="stylesheet" type="text/css" href="CSS-STYLE/kontakt.css">
+		<link rel="stylesheet" href="ajax.css">
+	</head>
+	
+	<body>
+		
+		
+		
+		
+		<div id="container">
+		
+			
+			
+			<!-- nav -->
+		<div id="nav">
+		   <nav id="menu">
+			  
+				<!--<h3 id="logo">Zeena Bahram</h3>-->
+				<ul style="font-family:cinzel;" class="menu-all">
+					<a style="text-decoration:none;" href="cv.html"><li class="menu-item">CV</li></a>
+					<a style="text-decoration:none;" href="link.html"><li class="menu-item">Portfolio</li></a>
+					<a style="text-decoration:none;" href="kontakt.html"><li class="menu-item">Kontakt</li></a>
+				</ul>
+			
+		   </nav>
+
+		</div>
+
+<section class="container text-center">
+  <div class="row h2-h4-hotfix">
+    <h1>Kontakta mig!</h1>
+    <h4>Fyll i formuläret nedan, eller kontakta mig direkt via den information som lämnas.</h4>
+  </div>
+</section>
+
+<section class="container text-center" id="form">
+    <div class="row">
+      <div class="col-lg-6">
+
+		  <form name="htmlform" method="post" action="php/html_form_send.php">
+	           <table id="contact-form" dir="rtl">
+		         <tr><td><input type="text" name="first_name" placeholder="Namn *" maxlength="50" size="70" required></td></tr>
+		         <tr><td><input type="text" name="last_name" placeholder="Efternamn *" maxlength="50" size="70" required></td></tr>
+		         <tr><td><input type="email" name="email" placeholder="Email *" maxlength="80" size="70" required></td></tr>
+		         <tr><td><input type="text" name="telephone" placeholder="Mobilnummer " maxlength="30" size="70"><br></td></tr>
+		         <tr><td><textarea name="comments"  maxlength="1000" cols="72" rows="8" required>
+	             </textarea></td></tr>
+	             <tr><td><input  class="cta1" type="submit" value="Skicka"></td></tr>
+	          </table>
+            </form>
+		  
+		  
+		  
+        </div>
+      <div class="col-lg-6">
+        <div class="row info-row">
+          <div class="col-xs-2">
+            <i class="material-icons" style="font-size:45px; color:dimgrey">home</i> 
+          </div>
+          <div  class="col-xs-10 col-xs-10-hotfix">
+            Eriksbo Västergärde 22 <br>424 34 Göteborg
+          </div>
+        </div>
+        <div class="row info-row">
+          <div class="col-xs-2">
+            <i class="material-icons" style="font-size:36px; color:dimgrey">call</i> 
+          </div>
+          <div class="col-xs-10">
+           0707511157
+          </div>
+        </div>
+        <div class="row info-row">
+          <div class="col-xs-2">
+            
+			  <i class="material-icons" style="font-size:36px; color:dimgrey">email</i>
+	 
+          </div>
+          <div class="col-xs-10">
+            zeena_aywaz@yahoo.com
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+	
+	
+  
+			
+
+
+	
+			
+			
+		<!-- footer -->
+		<section id="wsfooter">
+			<p>Zeena Bahram</p>
+			<p> <a href="#">Mobilenumber: 0707511157</a></p>
+			<p><a href="#">Email: zeena_aywaz@yahoo.com</a></p>
+		</section>
+		
+		
+		<!-- SCRIPT -->
+		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+		<script src="java.js"></script>
+	</body>
+</html>

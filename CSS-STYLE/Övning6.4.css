@@ -1,0 +1,68 @@
+body
+{
+	padding: 40px;
+	margin:0px;
+	background-color:black;
+	
+}
+
+body > div
+{
+	display: flex;
+	flex-flow: column ;
+	border: 3px solid;
+	border-color:grey;
+	width: 850px;
+	margin: 0 auto;
+	background-color:white;
+	
+	
+}
+body > div > header, nav, main, aside, footer
+{
+	background:red ;
+	border-radius: 7px;
+	margin: 2px;
+	padding: 20px;
+	border: 3px solid;
+	border-color: grey;
+	width: 800px;	
+
+	
+		
+	
+	
+}
+body > div > header
+{
+    order: 1;	
+	height: 100px;
+	flex: 0 1  100%;
+	width: 800px;
+		
+}
+body > div > nav
+{
+    order: 3;	
+	
+	flex: 0 1  250px;
+		
+}
+
+ body > div > main
+{
+	order: 2;
+	min-height: 650px;
+	flex: 1;
+}
+ body > div > aside
+{
+	order:4;
+	flex: 0 1 250px;
+}
+body > div > footer
+{
+	 order: 5;	
+	height: 100px;
+	flex: 0 1  100%;
+}
