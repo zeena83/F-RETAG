@@ -1,0 +1,79 @@
+
+body
+{
+	margin: 40px;
+	padding: 0 auto;
+	
+}
+
+
+
+
+div {
+  border: 2px solid white;
+  padding: 14px;
+  background-color:black;
+  width:1500px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.table
+{
+  display: table;
+  background-color: black;
+}
+
+.table > div 
+{
+	display:table-row; 
+}
+
+.table > div > div 
+{
+  display: table-cell;
+  background-color:gray;
+}
+
+.ta1
+{
+	width: 3%;
+	height: 3%;
+	text-align:justify;
+	font-size: 20px;
+	
+}
+ 
+.ta2
+{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+.ta3
+{
+	width: 5%;
+	height: 5%;
+	text-align: center;
+	font-style: normal;
+	
+}
+
+.ta4
+{
+
+	border-color: darkblue;
+
+	border-style: dashed;
+		
+}
+
+
+
+
+
+
+
+
